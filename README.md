@@ -1,1 +1,5 @@
 # World_Weather_Analysis
+## Purpose
+The purpose of this analysis was to create a data base from an API, then search through the data base to find and organize all relavent data that would help us generate a map containing information corresponding to latitude and longitude coordinates.
+## Overview
+First to construct our database we needed to pull latitude and longitude data from the open weather api. This allowed us to create a database of cities that included weather information. The weather information was critical because min temp and max temp were the search criteria the user was prompted to enter. Another api that was used in this analysis was google's maps and places. Google directions were also called. When the user entered the min and max temperature for their vacation destination, the database was filtered to only return cities between the max and min limits. With the search results filtered a map was generated based off of those results. Weigh points were added that included hotel data for the cities. We then used google's directions api to construct a route for a round trip of all the cities that were selected.
